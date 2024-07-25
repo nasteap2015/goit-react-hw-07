@@ -22,7 +22,7 @@ function App() {
       <ContactForm />
       <SearchBox />
       {loading && (<p>Loading data...</p>)}
-      {!error && (<p>{error}</p>)}
+      {error && (<p>{error}</p>)}
       <ContactList />
     </div>
   )
